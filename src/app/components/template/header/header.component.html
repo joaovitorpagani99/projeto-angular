@@ -1,0 +1,32 @@
+<mat-toolbar class="header mat-elevation-z8">
+    <span>
+        <a>
+            <button mat-icon-button [matMenuTriggerFor]="menu" aria-label>
+                <mat-icon>more_vert</mat-icon>
+              </button>
+              <mat-menu #menu="matMenu">
+                <a mat-menu-item routerLink="/">
+                  <mat-icon>home</mat-icon>
+                  <span>Inicio</span>
+                </a>
+                <a mat-menu-item routerLink="/products">
+                  <mat-icon>store</mat-icon>
+                  <span>Produtos</span>
+                </a>
+                <a mat-menu-item routerLink="/products/link">
+                  <mat-icon>link</mat-icon>
+                  <span>Link Sites</span>
+                </a>
+              </mat-menu> 
+        </a> 
+    </span>
+    <span class="title-group">
+        <a>
+            <i class="material-icons">
+                dashboard
+            </i>
+            Aplicação
+        </a>
+    </span>
+   
+</mat-toolbar>

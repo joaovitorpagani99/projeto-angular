@@ -1,0 +1,17 @@
+.card{
+    padding-top: 100px;
+    background-color: #fff;
+    margin: 20px;
+    width: 16%;
+    float: left;
+}
+.imagem1{
+    max-width: 400px;
+}
+.title{
+    margin-bottom: 100px;
+}
+.imagem{
+  height: 100px;
+  width: 100px;
+}
